@@ -2,6 +2,9 @@ let sorteo = parseInt(prompt("Ingrese un numero del 1 al 3 o ESC para terminar")
 
 while (sorteo !== "ESC") {
     switch (sorteo) {
+        case "ESC":
+            console.log("Te esperamos en otra oportunidad.");
+            alert("Te esperamos en otra oportunidad.");
         case 1:
             console.log("Excelente ganaste 1 shampoo 🧴");
             alert("Excelente ganaste 1 shampoo 🧴");
