@@ -22,6 +22,7 @@ while (sorteo !== null && sorteo.toUpperCase() !== "ESC") {
     sorteo = prompt("Ingrese un numero del 1 al 3 o ESC para terminar");
 }
 
+console.log("ESC");
 if (sorteo !== null && sorteo.toUpperCase() === "ESC") {
     console.log("Te esperamos en otra oportunidad.");
     alert("Te esperamos en otra oportunidad.");
