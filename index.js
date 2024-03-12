@@ -51,6 +51,8 @@ function mostrarMensaje(usuario, mensaje) {
     divMensaje.classList.add("mensaje");
     document.body.appendChild(divMensaje);
 
+    console.log(`${usuario.nombreCompleto} ${mensaje}`);
+
     setTimeout(() => {
         divMensaje.remove();
     }, 3000);
@@ -68,5 +70,5 @@ function mostrarMensaje(usuario, mensaje) {
     }
 }
 
-const btnParticipar = document.getElementById("btn-participar"); 
-btnParticipar.addEventListener("click", realizarSorteo); 
+document.getElementById("btn-participar").addEventListener("click", realizarSorteo);
+
